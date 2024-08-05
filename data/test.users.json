@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "66ac546c24eaa3fe2f8e8693"
+  },
+  "name": "doctor",
+  "fullName": "nguyễn văn A",
+  "username": "doctor",
+  "password": "123",
+  "role": {
+    "$oid": "66ac4d1ddd5db4871e77e136"
+  },
+  "department": "Phòng Khám Nội Khoa",
+  "employmentStatus": "Full-time",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac546c24eaa3fe2f8e8694"
+  },
+  "name": "nurse",
+  "fullName": "nguyễn văn Y tá 1",
+  "username": "doctor",
+  "password": "123",
+  "role": {
+    "$oid": "66ac4d1ddd5db4871e77e137"
+  },
+  "department": "Y Tá Phòng Khám Nội Khoa",
+  "employmentStatus": "Full-time",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac546c24eaa3fe2f8e8695"
+  },
+  "name": "nurse",
+  "fullName": "nguyễn văn Y tá 2",
+  "username": "doctor",
+  "password": "123",
+  "role": {
+    "$oid": "66ac4d1ddd5db4871e77e137"
+  },
+  "department": "Y Tá Phòng Khám Nội Khoa",
+  "employmentStatus": "Part-time",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac546c24eaa3fe2f8e8696"
+  },
+  "name": "admin",
+  "fullName": "nguyễn văn C ",
+  "username": "doctor",
+  "password": "123",
+  "role": {
+    "$oid": "66ac4d1ddd5db4871e77e135"
+  },
+  "department": "Phòng IT",
+  "employmentStatus": "Full-time",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac546c24eaa3fe2f8e8697"
+  },
+  "name": "patient",
+  "fullName": "nguyễn văn D",
+  "username": "doctor",
+  "password": "123",
+  "role": {
+    "$oid": "66ac4d1ddd5db4871e77e138"
+  },
+  "department": null,
+  "employmentStatus": null,
+  "__v": 0
+}]

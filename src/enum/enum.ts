@@ -8,9 +8,16 @@ export enum Action {
 
 export enum Role {
   Admin = 'admin',
-  Host = 'host',
-  Author = 'author',
-  User = 'user',
+  Doctor = 'doctor',
+  Nurse = 'nurse',
+  Patient = 'patient',
+}
+
+export enum Resource {
+  Patient_Record = 'Patient_Record',
+  Drug = 'Drug',
+  Appointments = 'Appointments',
+  Billing = 'Billing',
 }
 
 // user action: CRUD

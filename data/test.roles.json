@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "66ac4d1ddd5db4871e77e135"
+  },
+  "name": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac4d1ddd5db4871e77e136"
+  },
+  "name": "doctor",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac4d1ddd5db4871e77e137"
+  },
+  "name": "nurse",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ac4d1ddd5db4871e77e138"
+  },
+  "name": "patient",
+  "__v": 0
+}]

@@ -6,6 +6,10 @@ import {
 import { UserService } from '../user/user.service';
 import { JwtService } from '@nestjs/jwt';
 
+export type Payload = {
+  _id: string;
+};
+
 @Injectable()
 export class AuthService {
   constructor(
@@ -14,7 +18,7 @@ export class AuthService {
   ) {}
 
   async signIn(username: string, pass: string) {
-    const user = this.userService.findOne(username);
+    const user = await this.userService.findOne(username);
 
     if (!user) throw new BadRequestException('user not found');
 
@@ -23,10 +27,10 @@ export class AuthService {
     }
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { password, ...result } = user;
+    const { _id } = user;
 
     return {
-      access_token: await this.jwtService.signAsync(result),
+      access_token: await this.jwtService.signAsync({ _id: _id }),
     };
   }
 }

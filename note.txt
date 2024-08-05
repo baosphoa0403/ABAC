@@ -2,3 +2,23 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "username": "bao",
   "password": "123"
 }' http://localhost:3000/auth/login
+
+{
+  "_id": {
+    "$oid": "66ae3f4e0cfd6157ba870e3f"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8693"
+  },
+  "actions": [
+    "read"
+  ],
+  "resource": "Patient_Record",
+  "createdAt": {
+    "$date": "2024-08-03T14:31:42.073Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2024-08-03T14:33:36.971Z"
+  }
+}

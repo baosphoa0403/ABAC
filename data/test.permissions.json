@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "66ae3f600cfd6157ba870e43"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8694"
+  },
+  "actions": [
+    "read",
+    "create",
+    "update"
+  ],
+  "resource": "Patient_Record",
+  "createdAt": {
+    "$date": "2024-08-03T14:32:00.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ae3f600cfd6157ba870e44"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8695"
+  },
+  "actions": [
+    "read",
+    "create",
+    "update"
+  ],
+  "resource": "Patient_Record",
+  "createdAt": {
+    "$date": "2024-08-03T14:32:00.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ae3f630cfd6157ba870e48"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8697"
+  },
+  "actions": [
+    "read"
+  ],
+  "resource": "Patient_Record",
+  "createdAt": {
+    "$date": "2024-08-03T14:32:03.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66af38197722b257957ae6f3"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8693"
+  },
+  "actions": [
+    "read"
+  ],
+  "resource": "Drug",
+  "createdAt": {
+    "$date": "2024-08-04T08:13:13.583Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ae3f4e0cfd6157ba870e3f"
+  },
+  "user": {
+    "$oid": "66ac546c24eaa3fe2f8e8693"
+  },
+  "actions": [
+    "manage"
+  ],
+  "resource": "Patient_Record",
+  "createdAt": {
+    "$date": "2024-08-03T14:31:42.073Z"
+  },
+  "__v": 0,
+  "updatedAt": {
+    "$date": "2024-08-03T14:33:36.971Z"
+  }
+}]
